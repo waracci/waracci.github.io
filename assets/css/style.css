@@ -6,6 +6,7 @@ html, body {
   overflow-x: hidden;
   background: #F1F1F1;
 }
+
  /* navbar */
  .navbar-brand{
    font-size: 40px;
@@ -26,7 +27,6 @@ html, body {
   }
 
   .banner_section{
-    
     height: 100%;
     background-color: rgba(0,0,0,0.6);
     color: #fff;
