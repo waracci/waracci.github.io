@@ -5,43 +5,7 @@ html, body {
   background: #F1F1F1;
 }
  /* navbar */
- nav {
-  margin: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-bottom: 2px solid #000000 ;
-}
-
-.navbar-inverse {
-  background-color: #333333 ;
-}
-
-.nav-brand {
-  font-size: 2.5em;
-  padding-left: 50px;
-}
-
-.nav-brand:hover {
-  -webkit-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
-.navbar-right {
-  padding-right: 50px;
-}
-
-.navbar-right>li>a {
-  font-size: 1.3em;
-}
-
-.navbar-right>li>a:hover {
-  -webkit-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
+ 
 /* navbar */
 .banner {
     width: 100%;
