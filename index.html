@@ -189,15 +189,15 @@
                     <div class="text-center">
                         <h1 class="display-3">Contact me</h1>
                     </div>
-                    <form>
+                    <form method="POST" action="https://formspree.io/morriswarachi0@gmail.com">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Enter message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">send</button>
                     </form>
